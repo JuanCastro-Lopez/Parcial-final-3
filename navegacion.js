@@ -3,5 +3,5 @@ function irUsuarios() {
 }
 
 function irInicio () {
-    window.location.href = "inicio.html";
+    window.location.href = "index.html";
 }
