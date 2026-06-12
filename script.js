@@ -26,9 +26,9 @@ formulario.addEventListener("submit", function (e) {
     }
 
     function validarCorreo(correo) {
-    const regex = /^\S+@\S+\.\S+$/
-    return regex.test(correo)
-}
+        const regex = /^\S+@\S+\.\S+$/
+        return regex.test(correo)
+    }
 
     if (password.length < 6) {
         alert("La contraseña debe tener mínimo 6 caracteres");
@@ -54,10 +54,5 @@ formulario.addEventListener("submit", function (e) {
 
     window.location.href = "usuarios.html";
 
-});
-
-
-
-
-
-
+}
+);
